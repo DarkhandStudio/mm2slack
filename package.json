@@ -1,0 +1,14 @@
+{
+     "name": "MM3Slack",
+     "version": "1.1.0",
+     "private": true,
+     "scripts": {
+       "start": "node mm2slack.js"
+     },
+     "dependencies": {
+        "express": "4.7.2",
+        "node-mattermost": "*",
+        "node-slack": "*",
+        "body-parser": "*"
+     }
+}
